@@ -75,6 +75,7 @@ public class ThuatToanID3 {
     }
 
     //tính Entropy
+    [9, 5]
     public double Entropy(int[] arrayValue) {
         int dem = 0;
         for (int i = 0; i < arrayValue.length; i++) {
@@ -82,7 +83,7 @@ public class ThuatToanID3 {
                 dem++;
             }
         }
-        if (dem == arrayValue.length) {
+        if (dem == arrayValue.length - 1) {
             return 0;
         } else {
             double total = 0;

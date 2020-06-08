@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 /**
  *
- * @author HongNguyen (dối trá)
+ * @author HongNguyen
  */
 public class HeChuyenGiaID3 {
 
